@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name pedal-pi-libs)(type Legacy)(uri /home/tianli/Projects/pedal_pi/pedal_pi/pedal-pi-libs.lib)(options "")(descr ""))
+)

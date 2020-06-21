@@ -585,49 +585,4 @@ Wire Notes Line
 	4600 4050 4600 7600
 Text Notes 4650 4150 0    50   ~ 0
 Switches, Buttons, LED
-$Comp
-L pedal-pi-libs:BARREL_JACK CON?
-U 1 1 5EF75827
-P 6500 1550
-F 0 "CON?" H 6483 1897 60  0000 C CNN
-F 1 "BARREL_JACK" H 6483 1791 60  0000 C CNN
-F 2 "" H 6500 1550 60  0000 C CNN
-F 3 "" H 6500 1550 60  0000 C CNN
-	1    6500 1550
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5EF766B0
-P 7150 1650
-F 0 "#PWR?" H 7150 1400 50  0001 C CNN
-F 1 "GND" H 7155 1477 50  0000 C CNN
-F 2 "" H 7150 1650 50  0001 C CNN
-F 3 "" H 7150 1650 50  0001 C CNN
-	1    7150 1650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7150 1650 7000 1650
-Wire Wire Line
-	6800 1550 7000 1550
-Wire Wire Line
-	7000 1550 7000 1650
-Connection ~ 7000 1650
-Wire Wire Line
-	7000 1650 6800 1650
-Wire Wire Line
-	8850 4800 8850 4400
-Text Label 8850 4400 0    50   ~ 0
-GPIO14
-Wire Wire Line
-	6900 5700 6650 5700
-Wire Wire Line
-	6650 5700 6650 5350
-Text Label 6650 5350 0    50   ~ 0
-GPIO16
-Wire Wire Line
-	10250 4800 10250 4400
-Text Label 10250 4400 0    50   ~ 0
-GPIO16
 $EndSCHEMATC
